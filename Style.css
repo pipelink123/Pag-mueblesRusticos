@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "CinzelDecorative-Bold";
+    src: url("Assets/tipografia/CinzelDecorative-Black/CinzelDecorative-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Dongle-Regular";
+    src: url("Assets/tipografia/Dongle/Dongle-Regular.ttf");
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #ffd360;
+    box-shadow: 16px 16px 26px #4f2307;
+    font-size: 18px;
+    font-family: "CinzelDecorative-Bold";
+
+}
+
+.logo1 {
+    margin-left: 60px;
+    text-align: center;
+    /* acordarse de hacer ul link aqui */
+}
+
+body {
+    /* display: flex;
+    flex-direction: column; */
+        background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0.02, #2e0d07), color-stop(0.8, #af6a27));
+}
+
+
+
+.body-up {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+    margin-left: 45px;
+}
+
+.textoPrincipal {
+    margin-left: 10px;
+    text-align: center;
+}
+
+
+.body-down {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+a {
+    color: #341010;
+}
+
+ul {
+    display: flex;
+    margin: auto;
+}
+
+li {
+    margin-left: 65px;
+}
+
+p {
+    color: white;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    background-color: #290d05;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+/* PRODUCTOS-HTML */
+.containerProductos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin: 50px;
+    margin-top: 120px;
+}
+
+h3 {
+    color: white;
+}
+
+/* NOSOTROS-HTML */
+.nosotros {
+    display: flex;
+        text-align: center;
+    margin-bottom: 40px;
+    /* background: lightgreen; */
+}
+
+.grupo1 {
+    margin-top: 150px;
+    margin-left: 55px;
+}
+
+#txg1 {
+    margin-bottom: 60px;
+}
+
+.grupo2 {
+    margin-top: 150px;
+}
+
+#txg2 {
+    margin-top: 60px;
+}
+
+.team {
+    margin-top: 60px;
+}
+.BarraTeam{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* CONTACTO-HTML */
+.contacto{
+    display: flex;
+    flex-direction: row;
+    margin-top: 90px;
+    justify-content: space-around;
+    margin-bottom: 80px;
+
+
+}
